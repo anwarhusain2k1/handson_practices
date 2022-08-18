@@ -1,0 +1,174 @@
+Problem1:
+
+
+ 
+$ notepad++
+$ notepad.exe bash -profile
+
+hp@LAPTOP-21IK3OHF MINGW64 ~
+$ notepad.exe bash -profile
+
+hp@LAPTOP-21IK3OHF MINGW64 ~
+$ notepad++.exe bash -profile
+
+hp@LAPTOP-21IK3OHF MINGW64 ~
+$ git config --global core.editor "notepad++.exe -multiInst -nosession"
+
+hp@LAPTOP-21IK3OHF MINGW64 ~
+$ git config --global -e
+
+hp@LAPTOP-21IK3OHF MINGW64 ~
+$ git init GitDemo
+Initialized empty Git repository in C:/Users/hp/GitDemo/.git/
+ cd GitDemo
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (master)
+$ ls -al
+total 20
+drwxr-xr-x 1 hp 197121 0 Aug 17 15:16 ./
+drwxr-xr-x 1 hp 197121 0 Aug 17 15:22 ../
+drwxr-xr-x 1 hp 197121 0 Aug 17 15:16 .git/
+
+$ cat welcome.txt
+welcome to the version control
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        welcome.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (master)
+$ git add welcome.txt
+warning: in the working copy of 'welcome.txt', LF will be replaced by CRLF the next time Git touches it
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (master)
+$ git commit
+[master (root-commit) 768c988] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 welcome.txt
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+$ git remote add welcome.txt https://github.com/anwarhusain2k1/GitDemo.git
+
+$ git push --set-upstream welcome.txt master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 246 bytes | 123.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/anwarhusain2k1/GitDemo.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'welcome.txt/master'.
+
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 676 bytes | 35.00 KiB/s, done.
+From https://github.com/anwarhusain2k1/GitDemo
+   768c988..6ef25fb  master     -> welcome.txt/master
+Updating 768c988..6ef25fb
+Fast-forward
+ welcome.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+
+
+Problem3:
+
+
+
+Branching:
+
+
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (master)
+$ git checkout -b "newbranch"
+Switched to a new branch 'newbranch'
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (newbranch)
+$ git branch
+  master
+* newbranch
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (newbranch)
+$ echo "welcome to new branch">>new.txt
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (newbranch)
+$ ls -al
+total 22
+drwxr-xr-x 1 hp 197121  0 Aug 17 19:34 ./
+drwxr-xr-x 1 hp 197121  0 Aug 17 19:32 ../
+drwxr-xr-x 1 hp 197121  0 Aug 17 19:32 .git/
+-rw-r--r-- 1 hp 197121 22 Aug 17 19:34 new.txt
+-rw-r--r-- 1 hp 197121 57 Aug 17 17:46 welcome.txt
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (newbranch)
+$ git commit -am "commit oon new branch"
+On branch newbranch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        new.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (newbranch)
+$ git add new.txt
+warning: in the working copy of 'new.txt', LF will be replaced by CRLF the next time Git touches it
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (newbranch)
+$ git commit
+[newbranch 5f5e9a9] commit in newbranch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 new.txt
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (newbranch)
+$ git status
+On branch newbranch
+nothing to commit, working tree clean
+
+
+Merging:
+
+
+$ cd GitDemo
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (newbranch)
+$ git log -oneline -graph -decorated
+fatal: unrecognized argument: -oneline
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (newbranch)
+$ git checkout master
+Switched to branch 'master'
+M       welcome.txt
+Your branch is up to date with 'welcome.txt/master'.
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (newfeature)
+$ git log --oneline --decorate --graph
+* 5f5e9a9 (HEAD -> newfeature, welcome.txt/master, master) commit in newbranch
+* 6ef25fb Update welcome.txt
+* 768c988 first commit
+
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (master)
+$ git merge newbranch
+Already up to date.
+
+hp@LAPTOP-21IK3OHF MINGW64 ~/GitDemo (master)
+$ git branch --delete newbranch
+Deleted branch newbranch (was 5f5e9a9).
