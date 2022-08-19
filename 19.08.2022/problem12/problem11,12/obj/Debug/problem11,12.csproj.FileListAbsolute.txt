@@ -1,0 +1,8 @@
+C:\Users\hp\source\repos\problem11,12\problem11,12\obj\Debug\problem11,12.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\problem11,12\problem11,12\obj\Debug\problem11,12.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\source\repos\problem11,12\problem11,12\obj\Debug\problem11,12.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\problem11,12\problem11,12\bin\Debug\problem11,12.exe.config
+C:\Users\hp\source\repos\problem11,12\problem11,12\bin\Debug\problem11,12.exe
+C:\Users\hp\source\repos\problem11,12\problem11,12\bin\Debug\problem11,12.pdb
+C:\Users\hp\source\repos\problem11,12\problem11,12\obj\Debug\problem11,12.exe
+C:\Users\hp\source\repos\problem11,12\problem11,12\obj\Debug\problem11,12.pdb
