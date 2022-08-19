@@ -1,0 +1,8 @@
+C:\Users\hp\source\repos\18.8.2022\18.8.2022\bin\Debug\18.8.2022.exe.config
+C:\Users\hp\source\repos\18.8.2022\18.8.2022\bin\Debug\18.8.2022.exe
+C:\Users\hp\source\repos\18.8.2022\18.8.2022\bin\Debug\18.8.2022.pdb
+C:\Users\hp\source\repos\18.8.2022\18.8.2022\obj\Debug\18.8.2022.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\18.8.2022\18.8.2022\obj\Debug\18.8.2022.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\source\repos\18.8.2022\18.8.2022\obj\Debug\18.8.2022.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\18.8.2022\18.8.2022\obj\Debug\18.8.2022.exe
+C:\Users\hp\source\repos\18.8.2022\18.8.2022\obj\Debug\18.8.2022.pdb

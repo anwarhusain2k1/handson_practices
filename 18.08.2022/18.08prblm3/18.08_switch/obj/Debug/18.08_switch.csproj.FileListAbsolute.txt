@@ -1,0 +1,8 @@
+C:\Users\hp\source\repos\18.08_switch\18.08_switch\bin\Debug\18.08_switch.exe.config
+C:\Users\hp\source\repos\18.08_switch\18.08_switch\bin\Debug\18.08_switch.exe
+C:\Users\hp\source\repos\18.08_switch\18.08_switch\bin\Debug\18.08_switch.pdb
+C:\Users\hp\source\repos\18.08_switch\18.08_switch\obj\Debug\18.08_switch.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\18.08_switch\18.08_switch\obj\Debug\18.08_switch.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\source\repos\18.08_switch\18.08_switch\obj\Debug\18.08_switch.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\18.08_switch\18.08_switch\obj\Debug\18.08_switch.exe
+C:\Users\hp\source\repos\18.08_switch\18.08_switch\obj\Debug\18.08_switch.pdb

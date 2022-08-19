@@ -1,0 +1,8 @@
+C:\Users\hp\source\repos\prblm7\prblm7\bin\Debug\prblm7.exe.config
+C:\Users\hp\source\repos\prblm7\prblm7\bin\Debug\prblm7.exe
+C:\Users\hp\source\repos\prblm7\prblm7\bin\Debug\prblm7.pdb
+C:\Users\hp\source\repos\prblm7\prblm7\obj\Debug\prblm7.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\prblm7\prblm7\obj\Debug\prblm7.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\source\repos\prblm7\prblm7\obj\Debug\prblm7.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\prblm7\prblm7\obj\Debug\prblm7.exe
+C:\Users\hp\source\repos\prblm7\prblm7\obj\Debug\prblm7.pdb
