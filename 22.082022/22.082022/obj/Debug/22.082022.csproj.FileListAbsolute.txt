@@ -1,0 +1,8 @@
+C:\Users\hp\source\repos\22.082022\22.082022\bin\Debug\22.082022.exe.config
+C:\Users\hp\source\repos\22.082022\22.082022\bin\Debug\22.082022.exe
+C:\Users\hp\source\repos\22.082022\22.082022\bin\Debug\22.082022.pdb
+C:\Users\hp\source\repos\22.082022\22.082022\obj\Debug\22.082022.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\22.082022\22.082022\obj\Debug\22.082022.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\source\repos\22.082022\22.082022\obj\Debug\22.082022.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\22.082022\22.082022\obj\Debug\22.082022.exe
+C:\Users\hp\source\repos\22.082022\22.082022\obj\Debug\22.082022.pdb
