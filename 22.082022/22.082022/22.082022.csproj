@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>_22._082022.ps8</StartupObject>
+    <StartupObject>_22._082022.ps15</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CodeFile1.cs" />
+    <Compile Include="ps13.cs" />
+    <Compile Include="ps12.cs" />
+    <Compile Include="ps15.cs" />
+    <Compile Include="ps10,11.cs" />
+    <Compile Include="ps14.cs" />
     <Compile Include="ps8.cs" />
     <Compile Include="ps3.cs" />
     <Compile Include="ps2.cs" />
@@ -56,6 +60,7 @@
     <Compile Include="ps5.cs" />
     <Compile Include="ps6.cs" />
     <Compile Include="ps7.cs" />
+    <Compile Include="ps9.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

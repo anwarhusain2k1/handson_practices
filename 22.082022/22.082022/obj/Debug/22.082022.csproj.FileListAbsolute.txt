@@ -6,3 +6,11 @@ C:\Users\hp\source\repos\22.082022\22.082022\obj\Debug\22.082022.csproj.Suggeste
 C:\Users\hp\source\repos\22.082022\22.082022\obj\Debug\22.082022.csproj.CoreCompileInputs.cache
 C:\Users\hp\source\repos\22.082022\22.082022\obj\Debug\22.082022.exe
 C:\Users\hp\source\repos\22.082022\22.082022\obj\Debug\22.082022.pdb
+D:\c#\22.082022\22.082022\obj\Debug\22.082022.csproj.AssemblyReference.cache
+D:\c#\22.082022\22.082022\obj\Debug\22.082022.csproj.SuggestedBindingRedirects.cache
+D:\c#\22.082022\22.082022\obj\Debug\22.082022.csproj.CoreCompileInputs.cache
+D:\c#\22.082022\22.082022\obj\Debug\22.082022.exe
+D:\c#\22.082022\22.082022\obj\Debug\22.082022.pdb
+D:\c#\22.082022\22.082022\bin\Debug\22.082022.exe.config
+D:\c#\22.082022\22.082022\bin\Debug\22.082022.exe
+D:\c#\22.082022\22.082022\bin\Debug\22.082022.pdb
