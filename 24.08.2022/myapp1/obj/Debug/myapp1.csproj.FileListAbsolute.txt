@@ -1,0 +1,13 @@
+C:\Users\hp\source\repos\myapp1\myapp1\bin\Debug\myapp1.exe.config
+C:\Users\hp\source\repos\myapp1\myapp1\bin\Debug\myapp1.exe
+C:\Users\hp\source\repos\myapp1\myapp1\bin\Debug\myapp1.pdb
+C:\Users\hp\source\repos\myapp1\myapp1\obj\Debug\myapp1.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\myapp1\myapp1\obj\Debug\myapp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\source\repos\myapp1\myapp1\obj\Debug\myapp1.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\myapp1\myapp1\obj\Debug\myapp1.exe
+C:\Users\hp\source\repos\myapp1\myapp1\obj\Debug\myapp1.pdb
+C:\Users\hp\source\repos\myapp1\myapp1\bin\Debug\reusable code.dll
+C:\Users\hp\source\repos\myapp1\myapp1\bin\Debug\reusable code.pdb
+C:\Users\hp\source\repos\myapp1\myapp1\obj\Debug\myapp1.csproj.CopyComplete
+C:\Users\hp\source\repos\myapp1\myapp1\bin\Debug\logic.dll
+C:\Users\hp\source\repos\myapp1\myapp1\bin\Debug\logic.pdb

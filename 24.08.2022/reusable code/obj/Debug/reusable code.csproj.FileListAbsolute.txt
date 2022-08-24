@@ -1,0 +1,6 @@
+C:\Users\hp\source\repos\myapp1\reusable code\bin\Debug\reusable code.dll
+C:\Users\hp\source\repos\myapp1\reusable code\bin\Debug\reusable code.pdb
+C:\Users\hp\source\repos\myapp1\reusable code\obj\Debug\reusable code.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\myapp1\reusable code\obj\Debug\reusable code.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\myapp1\reusable code\obj\Debug\reusable code.dll
+C:\Users\hp\source\repos\myapp1\reusable code\obj\Debug\reusable code.pdb

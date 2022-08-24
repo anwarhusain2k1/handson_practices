@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myapp1", "myapp1\myapp1.csproj", "{CC3DFF72-CF7E-480E-8F80-F16847D03FF2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BCDC4F86-0048-44DA-A0A7-1CE692CCD3E9} = {BCDC4F86-0048-44DA-A0A7-1CE692CCD3E9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reusable code", "reusable code\reusable code.csproj", "{BCDC4F86-0048-44DA-A0A7-1CE692CCD3E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC3DFF72-CF7E-480E-8F80-F16847D03FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3DFF72-CF7E-480E-8F80-F16847D03FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3DFF72-CF7E-480E-8F80-F16847D03FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3DFF72-CF7E-480E-8F80-F16847D03FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCDC4F86-0048-44DA-A0A7-1CE692CCD3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCDC4F86-0048-44DA-A0A7-1CE692CCD3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCDC4F86-0048-44DA-A0A7-1CE692CCD3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCDC4F86-0048-44DA-A0A7-1CE692CCD3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC08C3FB-EB2E-4B5E-A5E7-9C1A6A9CE9A2}
+	EndGlobalSection
+EndGlobal
