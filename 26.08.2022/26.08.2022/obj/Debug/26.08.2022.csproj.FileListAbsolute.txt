@@ -1,0 +1,12 @@
+C:\Users\hp\source\repos\26.08.2022\26.08.2022\bin\Debug\26.08.2022.exe.config
+C:\Users\hp\source\repos\26.08.2022\26.08.2022\bin\Debug\26.08.2022.exe
+C:\Users\hp\source\repos\26.08.2022\26.08.2022\bin\Debug\26.08.2022.pdb
+C:\Users\hp\source\repos\26.08.2022\26.08.2022\obj\Debug\26.08.2022.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\26.08.2022\26.08.2022\obj\Debug\26.08.2022.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\26.08.2022\26.08.2022\obj\Debug\26.08.2022.exe
+C:\Users\hp\source\repos\26.08.2022\26.08.2022\obj\Debug\26.08.2022.pdb
+C:\Users\hp\source\repos\26.08.2022\26.08.2022\bin\Debug\hrlibrary.dll
+C:\Users\hp\source\repos\26.08.2022\26.08.2022\bin\Debug\hrlibrary.pdb
+C:\Users\hp\source\repos\26.08.2022\26.08.2022\obj\Debug\26.08.2022.csproj.CopyComplete
+C:\Users\hp\source\repos\26.08.2022\26.08.2022\bin\Debug\student.dll
+C:\Users\hp\source\repos\26.08.2022\26.08.2022\bin\Debug\student.pdb

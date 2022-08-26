@@ -1,0 +1,6 @@
+C:\Users\hp\source\repos\26.08.2022\hrlibrary\bin\Debug\hrlibrary.dll
+C:\Users\hp\source\repos\26.08.2022\hrlibrary\bin\Debug\hrlibrary.pdb
+C:\Users\hp\source\repos\26.08.2022\hrlibrary\obj\Debug\hrlibrary.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\26.08.2022\hrlibrary\obj\Debug\hrlibrary.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\26.08.2022\hrlibrary\obj\Debug\hrlibrary.dll
+C:\Users\hp\source\repos\26.08.2022\hrlibrary\obj\Debug\hrlibrary.pdb

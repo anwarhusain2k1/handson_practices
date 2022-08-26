@@ -1,0 +1,6 @@
+C:\Users\hp\source\repos\26.08.2022\student\bin\Debug\student.dll
+C:\Users\hp\source\repos\26.08.2022\student\bin\Debug\student.pdb
+C:\Users\hp\source\repos\26.08.2022\student\obj\Debug\26.08_classes.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\26.08.2022\student\obj\Debug\26.08_classes.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\26.08.2022\student\obj\Debug\student.dll
+C:\Users\hp\source\repos\26.08.2022\student\obj\Debug\student.pdb
