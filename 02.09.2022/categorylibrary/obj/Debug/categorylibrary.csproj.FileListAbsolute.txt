@@ -1,0 +1,6 @@
+D:\c#\02.09.2022\categorylibrary\bin\Debug\categorylibrary.dll
+D:\c#\02.09.2022\categorylibrary\bin\Debug\categorylibrary.pdb
+D:\c#\02.09.2022\categorylibrary\obj\Debug\categorylibrary.csproj.AssemblyReference.cache
+D:\c#\02.09.2022\categorylibrary\obj\Debug\categorylibrary.csproj.CoreCompileInputs.cache
+D:\c#\02.09.2022\categorylibrary\obj\Debug\categorylibrary.dll
+D:\c#\02.09.2022\categorylibrary\obj\Debug\categorylibrary.pdb

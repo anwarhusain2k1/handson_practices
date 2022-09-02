@@ -1,0 +1,11 @@
+D:\c#\02.09.2022\02.09.2022\bin\Debug\02.09.2022.exe.config
+D:\c#\02.09.2022\02.09.2022\bin\Debug\02.09.2022.exe
+D:\c#\02.09.2022\02.09.2022\bin\Debug\02.09.2022.pdb
+D:\c#\02.09.2022\02.09.2022\obj\Debug\02.09.2022.csproj.AssemblyReference.cache
+D:\c#\02.09.2022\02.09.2022\obj\Debug\02.09.2022.csproj.SuggestedBindingRedirects.cache
+D:\c#\02.09.2022\02.09.2022\obj\Debug\02.09.2022.csproj.CoreCompileInputs.cache
+D:\c#\02.09.2022\02.09.2022\obj\Debug\02.09.2022.exe
+D:\c#\02.09.2022\02.09.2022\obj\Debug\02.09.2022.pdb
+D:\c#\02.09.2022\02.09.2022\obj\Debug\02.09.2022.csproj.CopyComplete
+D:\c#\02.09.2022\02.09.2022\bin\Debug\categorylibrary.dll
+D:\c#\02.09.2022\02.09.2022\bin\Debug\categorylibrary.pdb
