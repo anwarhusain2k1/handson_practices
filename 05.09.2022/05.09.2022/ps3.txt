@@ -1,0 +1,4 @@
+﻿13) can u create objects of interface and abstract class ?
+
+	No, We cant create an instance of an abstract class.But we can create a reference variable of an abstract class
+	
