@@ -1,0 +1,11 @@
+D:\c#\06.09.2022\06.09.2022\bin\Debug\06.09.2022.exe.config
+D:\c#\06.09.2022\06.09.2022\bin\Debug\06.09.2022.exe
+D:\c#\06.09.2022\06.09.2022\bin\Debug\06.09.2022.pdb
+D:\c#\06.09.2022\06.09.2022\obj\Debug\06.09.2022.csproj.AssemblyReference.cache
+D:\c#\06.09.2022\06.09.2022\obj\Debug\06.09.2022.csproj.SuggestedBindingRedirects.cache
+D:\c#\06.09.2022\06.09.2022\obj\Debug\06.09.2022.csproj.CoreCompileInputs.cache
+D:\c#\06.09.2022\06.09.2022\obj\Debug\06.09.2022.exe
+D:\c#\06.09.2022\06.09.2022\obj\Debug\06.09.2022.pdb
+D:\c#\06.09.2022\06.09.2022\bin\Debug\person.dll
+D:\c#\06.09.2022\06.09.2022\bin\Debug\person.pdb
+D:\c#\06.09.2022\06.09.2022\obj\Debug\06.09.2022.csproj.CopyComplete

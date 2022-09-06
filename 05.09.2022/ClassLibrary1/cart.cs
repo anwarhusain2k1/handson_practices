@@ -13,7 +13,7 @@ namespace ClassLibrary1
         public int booking_id { get; set; }
         static int a = 0;
 
-        List<Book> books = new List<Book>();
+        public List<Book> books = new List<Book>();
         public Cart() { }
         
 
@@ -35,6 +35,7 @@ namespace ClassLibrary1
             book.bookid = bookid;
             book.bookname = bookname;
             book.price = price;
+            book.author = author;
             book.author = author;
             books.Add(book);
             

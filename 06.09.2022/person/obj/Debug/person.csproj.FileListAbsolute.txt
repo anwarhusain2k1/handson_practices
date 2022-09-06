@@ -1,0 +1,6 @@
+D:\c#\06.09.2022\person\bin\Debug\person.dll
+D:\c#\06.09.2022\person\bin\Debug\person.pdb
+D:\c#\06.09.2022\person\obj\Debug\person.csproj.AssemblyReference.cache
+D:\c#\06.09.2022\person\obj\Debug\person.csproj.CoreCompileInputs.cache
+D:\c#\06.09.2022\person\obj\Debug\person.dll
+D:\c#\06.09.2022\person\obj\Debug\person.pdb
