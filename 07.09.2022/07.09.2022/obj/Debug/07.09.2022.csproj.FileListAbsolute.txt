@@ -1,0 +1,8 @@
+D:\Assistedprojects\07.09.2022\07.09.2022\bin\Debug\07.09.2022.exe.config
+D:\Assistedprojects\07.09.2022\07.09.2022\bin\Debug\07.09.2022.exe
+D:\Assistedprojects\07.09.2022\07.09.2022\bin\Debug\07.09.2022.pdb
+D:\Assistedprojects\07.09.2022\07.09.2022\obj\Debug\07.09.2022.csproj.AssemblyReference.cache
+D:\Assistedprojects\07.09.2022\07.09.2022\obj\Debug\07.09.2022.csproj.SuggestedBindingRedirects.cache
+D:\Assistedprojects\07.09.2022\07.09.2022\obj\Debug\07.09.2022.csproj.CoreCompileInputs.cache
+D:\Assistedprojects\07.09.2022\07.09.2022\obj\Debug\07.09.2022.exe
+D:\Assistedprojects\07.09.2022\07.09.2022\obj\Debug\07.09.2022.pdb
