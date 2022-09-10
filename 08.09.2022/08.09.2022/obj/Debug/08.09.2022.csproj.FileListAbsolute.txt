@@ -6,3 +6,11 @@ D:\practiceprojects\08.09.2022\08.09.2022\obj\Debug\08.09.2022.csproj.SuggestedB
 D:\practiceprojects\08.09.2022\08.09.2022\obj\Debug\08.09.2022.csproj.CoreCompileInputs.cache
 D:\practiceprojects\08.09.2022\08.09.2022\obj\Debug\08.09.2022.exe
 D:\practiceprojects\08.09.2022\08.09.2022\obj\Debug\08.09.2022.pdb
+D:\c#\08.09.2022\08.09.2022\bin\Debug\08.09.2022.exe.config
+D:\c#\08.09.2022\08.09.2022\bin\Debug\08.09.2022.exe
+D:\c#\08.09.2022\08.09.2022\bin\Debug\08.09.2022.pdb
+D:\c#\08.09.2022\08.09.2022\obj\Debug\08.09.2022.csproj.AssemblyReference.cache
+D:\c#\08.09.2022\08.09.2022\obj\Debug\08.09.2022.csproj.SuggestedBindingRedirects.cache
+D:\c#\08.09.2022\08.09.2022\obj\Debug\08.09.2022.csproj.CoreCompileInputs.cache
+D:\c#\08.09.2022\08.09.2022\obj\Debug\08.09.2022.exe
+D:\c#\08.09.2022\08.09.2022\obj\Debug\08.09.2022.pdb

@@ -17,6 +17,22 @@ namespace _08._09._2022
         static void Main(string[] args)
         {
             Employee emp = new Employee();
+            Console.WriteLine("enter username");
+            string uname = Console.ReadLine();
+            Console.WriteLine("enter password");
+            string password = Console.ReadLine();
+            
+            Action<string, string> checkcredentials = (u, p) =>
+            {
+                if (u != ""  && p != "" && p == "password")
+                {
+                    Console.WriteLine("U are logged in successfully");
+                }
+                else
+                {
+                    Console.WriteLine("Pls check userid/pwd");
+                }
+            }; checkcredentials(uname, password);
             add += new handler(insert);
             delete += new handler(remove);
             update += new handler(edit);
