@@ -1,0 +1,8 @@
+D:\c#\12.09.2022\12.09.2022\obj\Debug\12.09.2022.csproj.AssemblyReference.cache
+D:\c#\12.09.2022\12.09.2022\obj\Debug\12.09.2022.csproj.SuggestedBindingRedirects.cache
+D:\c#\12.09.2022\12.09.2022\obj\Debug\12.09.2022.csproj.CoreCompileInputs.cache
+D:\c#\12.09.2022\12.09.2022\bin\Debug\12.09.2022.exe.config
+D:\c#\12.09.2022\12.09.2022\bin\Debug\12.09.2022.exe
+D:\c#\12.09.2022\12.09.2022\bin\Debug\12.09.2022.pdb
+D:\c#\12.09.2022\12.09.2022\obj\Debug\12.09.2022.exe
+D:\c#\12.09.2022\12.09.2022\obj\Debug\12.09.2022.pdb
