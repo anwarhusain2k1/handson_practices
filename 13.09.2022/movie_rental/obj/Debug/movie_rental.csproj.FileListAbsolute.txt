@@ -1,0 +1,6 @@
+D:\c#\movie_rental\movie_rental\bin\Debug\movie_rental.dll
+D:\c#\movie_rental\movie_rental\bin\Debug\movie_rental.pdb
+D:\c#\movie_rental\movie_rental\obj\Debug\movie_rental.csproj.AssemblyReference.cache
+D:\c#\movie_rental\movie_rental\obj\Debug\movie_rental.csproj.CoreCompileInputs.cache
+D:\c#\movie_rental\movie_rental\obj\Debug\movie_rental.dll
+D:\c#\movie_rental\movie_rental\obj\Debug\movie_rental.pdb

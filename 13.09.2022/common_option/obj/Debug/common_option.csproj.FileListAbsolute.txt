@@ -1,0 +1,9 @@
+D:\c#\movie_rental\common_option\obj\Debug\common_option.csproj.AssemblyReference.cache
+D:\c#\movie_rental\common_option\obj\Debug\common_option.csproj.CoreCompileInputs.cache
+D:\c#\movie_rental\common_option\bin\Debug\common_option.dll
+D:\c#\movie_rental\common_option\bin\Debug\common_option.pdb
+D:\c#\movie_rental\common_option\bin\Debug\movie_rental.dll
+D:\c#\movie_rental\common_option\bin\Debug\movie_rental.pdb
+D:\c#\movie_rental\common_option\obj\Debug\common_option.csproj.CopyComplete
+D:\c#\movie_rental\common_option\obj\Debug\common_option.dll
+D:\c#\movie_rental\common_option\obj\Debug\common_option.pdb
