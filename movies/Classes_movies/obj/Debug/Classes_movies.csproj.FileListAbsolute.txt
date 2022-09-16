@@ -4,3 +4,9 @@ D:\practiceprojects\movies\Classes_movies\obj\Debug\Classes_movies.csproj.Assemb
 D:\practiceprojects\movies\Classes_movies\obj\Debug\Classes_movies.csproj.CoreCompileInputs.cache
 D:\practiceprojects\movies\Classes_movies\obj\Debug\Classes_movies.dll
 D:\practiceprojects\movies\Classes_movies\obj\Debug\Classes_movies.pdb
+D:\c#\movies\Classes_movies\bin\Debug\Classes_movies.dll
+D:\c#\movies\Classes_movies\bin\Debug\Classes_movies.pdb
+D:\c#\movies\Classes_movies\obj\Debug\Classes_movies.csproj.AssemblyReference.cache
+D:\c#\movies\Classes_movies\obj\Debug\Classes_movies.csproj.CoreCompileInputs.cache
+D:\c#\movies\Classes_movies\obj\Debug\Classes_movies.dll
+D:\c#\movies\Classes_movies\obj\Debug\Classes_movies.pdb

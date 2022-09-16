@@ -15,11 +15,11 @@ namespace Sep14Exercises
         static void Main(string[] args)
         {
             CustomerUser s1 = new CustomerUser();
-            s1.Id = 7904358017;
+            s1.Id = 9443328077;
             s1.Password = "123456789";
             s1.validate();
             CustomerUser s2 = new CustomerUser();
-            s2.Id = 7904358019;
+            s2.Id = 1234567890;
             s2.Password = "123456789";
             s2.validate();
             FileStream fs = new FileStream(@"empty.bin", FileMode.Create, FileAccess.Write);

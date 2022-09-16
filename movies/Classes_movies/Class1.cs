@@ -44,11 +44,12 @@ namespace Sep14
         public static List<Movie> movies = new List<Movie>();
         public void initiate()
         {
-            movies.Add(new Movie("Padayappa", "Tamil", "Action", 20));
-            movies.Add(new Movie("Kanchana", "Tamil", "Thriller", 40));
-            movies.Add(new Movie("Anandham", "Telugu", "Drama", 50));
-            movies.Add(new Movie("Anjana", "Telugu", "Thriller", 60));
-            movies.Add(new Movie("Atma", "Kannada", "Drama", 34));
+            movies.Add(new Movie("C", "Telugu", "Drama", 63));
+            movies.Add(new Movie("E", "Kannada", "Romance", 56));
+            movies.Add(new Movie("C", "Telugu", "Drama", 63));
+            movies.Add(new Movie("B", "Tamil", "Thriller", 67));
+            movies.Add(new Movie("D", "Telugu", "Comedy", 62));
+            movies.Add(new Movie("A", "Tamil", "Action", 61));
         }
         public void search()
         {
@@ -165,7 +166,7 @@ namespace Sep14
         {
             foreach (var item in movies)
             {
-                Console.WriteLine($"{item.mname} {item.mlanguage} {item.mgenre}");
+                Console.WriteLine($"{item.mname} \t {item.mlanguage} \t {item.mgenre}");
             }
         }
     }
@@ -192,7 +193,7 @@ namespace Sep14
         }
         public bool validate()
         {
-            if (Id == 7904358017 && Password == "123456789")
+            if (Id == 9443328077 && Password == "123456789")
             {
                 login = "true";
                 return true;
