@@ -7,15 +7,16 @@ using System.Threading.Tasks;
 
 namespace movie_rental
 {
+
     public class Movie:Customer
     {
         public string moviename { get; set; }
         public string language { get; set; }
         public string genre { get; set; }
-        public int count{ get; set; }
-        public  int cost { get; set; }
-        List<Movie> movies { get; set; }
-
+        public int count { get; set; }
+        public int cost { get; set; }
+        public static List<Movie> movies = new List<Movie>();
+        public Movie() { }
         public void addmovie(Movie movie)
         {
             movies.Add(movie);

@@ -1,0 +1,13 @@
+D:\practiceprojects\movies\movies\bin\Debug\movies.exe.config
+D:\practiceprojects\movies\movies\bin\Debug\movies.exe
+D:\practiceprojects\movies\movies\bin\Debug\movies.pdb
+D:\practiceprojects\movies\movies\obj\Debug\movies.csproj.AssemblyReference.cache
+D:\practiceprojects\movies\movies\obj\Debug\movies.csproj.SuggestedBindingRedirects.cache
+D:\practiceprojects\movies\movies\obj\Debug\movies.csproj.CoreCompileInputs.cache
+D:\practiceprojects\movies\movies\obj\Debug\movies.exe
+D:\practiceprojects\movies\movies\obj\Debug\movies.pdb
+D:\practiceprojects\movies\movies\bin\Debug\Classes_movies.dll
+D:\practiceprojects\movies\movies\bin\Debug\Newtonsoft.Json.dll
+D:\practiceprojects\movies\movies\bin\Debug\Classes_movies.pdb
+D:\practiceprojects\movies\movies\bin\Debug\Newtonsoft.Json.xml
+D:\practiceprojects\movies\movies\obj\Debug\movies.csproj.CopyComplete

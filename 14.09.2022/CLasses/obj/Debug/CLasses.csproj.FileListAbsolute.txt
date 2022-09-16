@@ -1,0 +1,6 @@
+D:\c#\14.09.2022\CLasses\bin\Debug\CLasses.dll
+D:\c#\14.09.2022\CLasses\bin\Debug\CLasses.pdb
+D:\c#\14.09.2022\CLasses\obj\Debug\CLasses.csproj.AssemblyReference.cache
+D:\c#\14.09.2022\CLasses\obj\Debug\CLasses.csproj.CoreCompileInputs.cache
+D:\c#\14.09.2022\CLasses\obj\Debug\CLasses.dll
+D:\c#\14.09.2022\CLasses\obj\Debug\CLasses.pdb

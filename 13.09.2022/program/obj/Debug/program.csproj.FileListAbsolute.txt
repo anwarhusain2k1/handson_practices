@@ -1,0 +1,11 @@
+D:\c#\13.09.2022\program\bin\Debug\program.exe.config
+D:\c#\13.09.2022\program\bin\Debug\program.exe
+D:\c#\13.09.2022\program\bin\Debug\program.pdb
+D:\c#\13.09.2022\program\obj\Debug\program.csproj.AssemblyReference.cache
+D:\c#\13.09.2022\program\obj\Debug\program.csproj.SuggestedBindingRedirects.cache
+D:\c#\13.09.2022\program\obj\Debug\program.csproj.CoreCompileInputs.cache
+D:\c#\13.09.2022\program\obj\Debug\program.exe
+D:\c#\13.09.2022\program\obj\Debug\program.pdb
+D:\c#\13.09.2022\program\bin\Debug\common_option.dll
+D:\c#\13.09.2022\program\bin\Debug\common_option.pdb
+D:\c#\13.09.2022\program\obj\Debug\program.csproj.CopyComplete

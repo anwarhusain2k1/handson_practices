@@ -4,3 +4,9 @@ D:\c#\movie_rental\movie_rental\obj\Debug\movie_rental.csproj.AssemblyReference.
 D:\c#\movie_rental\movie_rental\obj\Debug\movie_rental.csproj.CoreCompileInputs.cache
 D:\c#\movie_rental\movie_rental\obj\Debug\movie_rental.dll
 D:\c#\movie_rental\movie_rental\obj\Debug\movie_rental.pdb
+D:\c#\13.09.2022\movie_rental\bin\Debug\movie_rental.dll
+D:\c#\13.09.2022\movie_rental\bin\Debug\movie_rental.pdb
+D:\c#\13.09.2022\movie_rental\obj\Debug\movie_rental.csproj.AssemblyReference.cache
+D:\c#\13.09.2022\movie_rental\obj\Debug\movie_rental.csproj.CoreCompileInputs.cache
+D:\c#\13.09.2022\movie_rental\obj\Debug\movie_rental.dll
+D:\c#\13.09.2022\movie_rental\obj\Debug\movie_rental.pdb

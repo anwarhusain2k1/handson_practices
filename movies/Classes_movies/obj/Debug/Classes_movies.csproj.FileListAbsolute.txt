@@ -1,0 +1,6 @@
+D:\practiceprojects\movies\Classes_movies\bin\Debug\Classes_movies.dll
+D:\practiceprojects\movies\Classes_movies\bin\Debug\Classes_movies.pdb
+D:\practiceprojects\movies\Classes_movies\obj\Debug\Classes_movies.csproj.AssemblyReference.cache
+D:\practiceprojects\movies\Classes_movies\obj\Debug\Classes_movies.csproj.CoreCompileInputs.cache
+D:\practiceprojects\movies\Classes_movies\obj\Debug\Classes_movies.dll
+D:\practiceprojects\movies\Classes_movies\obj\Debug\Classes_movies.pdb

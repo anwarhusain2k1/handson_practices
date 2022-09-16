@@ -8,13 +8,21 @@ using System.Threading.Tasks;
 
 namespace movie_rental
 {
+    
     public class Customer
     {
         public string customername { get; set; }
         public int phone_no { get; set; }
+        public enum sub
+        {
+            silver = 2,
+            gold = 3,
+            platinum = 5
+        }
         public string subcription { get; set; }
         public string password { get; set; }
-        public List<Customer> list = new List<Customer>();
+        
+        public static List<Customer> list = new List<Customer>();
 
 
     }
