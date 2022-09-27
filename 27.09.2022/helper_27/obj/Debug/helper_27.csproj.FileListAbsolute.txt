@@ -1,0 +1,12 @@
+D:\practiceprojects\27.09.2022\helper_27\bin\Debug\helper_27.dll
+D:\practiceprojects\27.09.2022\helper_27\bin\Debug\helper_27.pdb
+D:\practiceprojects\27.09.2022\helper_27\bin\Debug\DAL_27.dll
+D:\practiceprojects\27.09.2022\helper_27\bin\Debug\DAL_27.pdb
+D:\practiceprojects\27.09.2022\helper_27\bin\Debug\DAL_27.dll.config
+D:\practiceprojects\27.09.2022\helper_27\obj\Debug\helper_27.csproj.AssemblyReference.cache
+D:\practiceprojects\27.09.2022\helper_27\obj\Debug\helper_27.csproj.CoreCompileInputs.cache
+D:\practiceprojects\27.09.2022\helper_27\obj\Debug\helper_27.csproj.CopyComplete
+D:\practiceprojects\27.09.2022\helper_27\obj\Debug\helper_27.dll
+D:\practiceprojects\27.09.2022\helper_27\obj\Debug\helper_27.pdb
+D:\practiceprojects\27.09.2022\helper_27\bin\Debug\BAL.dll
+D:\practiceprojects\27.09.2022\helper_27\bin\Debug\BAL.pdb

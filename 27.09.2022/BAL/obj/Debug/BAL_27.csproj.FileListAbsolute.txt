@@ -1,0 +1,6 @@
+D:\practiceprojects\27.09.2022\BAL\bin\Debug\BAL.dll
+D:\practiceprojects\27.09.2022\BAL\bin\Debug\BAL.pdb
+D:\practiceprojects\27.09.2022\BAL\obj\Debug\BAL_27.csproj.AssemblyReference.cache
+D:\practiceprojects\27.09.2022\BAL\obj\Debug\BAL_27.csproj.CoreCompileInputs.cache
+D:\practiceprojects\27.09.2022\BAL\obj\Debug\BAL.dll
+D:\practiceprojects\27.09.2022\BAL\obj\Debug\BAL.pdb
