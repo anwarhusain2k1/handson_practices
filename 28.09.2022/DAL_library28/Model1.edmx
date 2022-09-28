@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="library_systemsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="book">
+          <Key>
+            <PropertyRef Name="Book_No" />
+          </Key>
+          <Property Name="Book_No" Type="numeric" Precision="6" Scale="0" Nullable="false" />
+          <Property Name="Book_Name" Type="varchar" MaxLength="30" />
+          <Property Name="Author" Type="char" MaxLength="30" />
+          <Property Name="Cost" Type="numeric" Precision="7" Scale="2" />
+          <Property Name="Category" Type="char" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="issue">
+          <Key>
+            <PropertyRef Name="Lib_Issue_Id" />
+          </Key>
+          <Property Name="Lib_Issue_Id" Type="numeric" Precision="10" Scale="0" Nullable="false" />
+          <Property Name="Book_No" Type="numeric" Precision="6" Scale="0" />
+          <Property Name="Member_Id" Type="numeric" Precision="5" Scale="0" />
+          <Property Name="Issue_Date" Type="date" />
+          <Property Name="Return_date" Type="date" />
+        </EntityType>
+        <EntityType Name="member">
+          <Key>
+            <PropertyRef Name="memberid" />
+          </Key>
+          <Property Name="memberid" Type="numeric" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="name" Type="char" MaxLength="25" />
+          <Property Name="Acc_Open_Date" Type="date" />
+          <Property Name="Max_Books_Allowed" Type="numeric" Precision="2" Scale="0" />
+          <Property Name="Penalty_Amount" Type="numeric" Precision="7" Scale="2" />
+        </EntityType>
+        <Association Name="FK__issue__Book_No__22AA2996">
+          <End Role="book" Type="Self.book" Multiplicity="0..1" />
+          <End Role="issue" Type="Self.issue" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="book">
+              <PropertyRef Name="Book_No" />
+            </Principal>
+            <Dependent Role="issue">
+              <PropertyRef Name="Book_No" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__issue__Member_Id__239E4DCF">
+          <End Role="member" Type="Self.member" Multiplicity="0..1" />
+          <End Role="issue" Type="Self.issue" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="member">
+              <PropertyRef Name="memberid" />
+            </Principal>
+            <Dependent Role="issue">
+              <PropertyRef Name="Member_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="library_systemsModelStoreContainer">
+          <EntitySet Name="book" EntityType="Self.book" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="issue" EntityType="Self.issue" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="member" EntityType="Self.member" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__issue__Book_No__22AA2996" Association="Self.FK__issue__Book_No__22AA2996">
+            <End Role="book" EntitySet="book" />
+            <End Role="issue" EntitySet="issue" />
+          </AssociationSet>
+          <AssociationSet Name="FK__issue__Member_Id__239E4DCF" Association="Self.FK__issue__Member_Id__239E4DCF">
+            <End Role="member" EntitySet="member" />
+            <End Role="issue" EntitySet="issue" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="library_systemsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="book">
+          <Key>
+            <PropertyRef Name="Book_No" />
+          </Key>
+          <Property Name="Book_No" Type="Decimal" Precision="6" Scale="0" Nullable="false" />
+          <Property Name="Book_Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="Author" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+          <Property Name="Cost" Type="Decimal" Precision="7" Scale="2" />
+          <Property Name="Category" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <NavigationProperty Name="issues" Relationship="library_systemsModel.FK__issue__Book_No__22AA2996" FromRole="book" ToRole="issue" />
+        </EntityType>
+        <EntityType Name="member">
+          <Key>
+            <PropertyRef Name="memberid" />
+          </Key>
+          <Property Name="memberid" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="25" FixedLength="true" Unicode="false" />
+          <Property Name="Acc_Open_Date" Type="DateTime" Precision="0" />
+          <Property Name="Max_Books_Allowed" Type="Decimal" Precision="2" Scale="0" />
+          <Property Name="Penalty_Amount" Type="Decimal" Precision="7" Scale="2" />
+          <NavigationProperty Name="issues" Relationship="library_systemsModel.FK__issue__Member_Id__239E4DCF" FromRole="member" ToRole="issue" />
+        </EntityType>
+        <EntityContainer Name="libraryCn" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="books" EntityType="Self.book" />
+          <EntitySet Name="members" EntityType="Self.member" />
+          <EntitySet Name="issues" EntityType="library_systemsModel.issue" />
+          <AssociationSet Name="FK__issue__Book_No__22AA2996" Association="library_systemsModel.FK__issue__Book_No__22AA2996">
+            <End Role="book" EntitySet="books" />
+            <End Role="issue" EntitySet="issues" />
+          </AssociationSet>
+          <AssociationSet Name="FK__issue__Member_Id__239E4DCF" Association="library_systemsModel.FK__issue__Member_Id__239E4DCF">
+            <End Role="member" EntitySet="members" />
+            <End Role="issue" EntitySet="issues" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="issue">
+          <Key>
+            <PropertyRef Name="Lib_Issue_Id" />
+          </Key>
+          <Property Name="Lib_Issue_Id" Type="Decimal" Nullable="false" Precision="10" Scale="0" />
+          <Property Name="Book_No" Type="Decimal" Precision="6" Scale="0" />
+          <Property Name="Member_Id" Type="Decimal" Precision="5" Scale="0" />
+          <Property Name="Issue_Date" Type="DateTime" Precision="0" />
+          <Property Name="Return_date" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="book" Relationship="library_systemsModel.FK__issue__Book_No__22AA2996" FromRole="issue" ToRole="book" />
+          <NavigationProperty Name="member" Relationship="library_systemsModel.FK__issue__Member_Id__239E4DCF" FromRole="issue" ToRole="member" />
+        </EntityType>
+        <Association Name="FK__issue__Book_No__22AA2996">
+          <End Type="library_systemsModel.book" Role="book" Multiplicity="0..1" />
+          <End Type="library_systemsModel.issue" Role="issue" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="book">
+              <PropertyRef Name="Book_No" />
+            </Principal>
+            <Dependent Role="issue">
+              <PropertyRef Name="Book_No" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__issue__Member_Id__239E4DCF">
+          <End Type="library_systemsModel.member" Role="member" Multiplicity="0..1" />
+          <End Type="library_systemsModel.issue" Role="issue" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="member">
+              <PropertyRef Name="memberid" />
+            </Principal>
+            <Dependent Role="issue">
+              <PropertyRef Name="Member_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="library_systemsModelStoreContainer" CdmEntityContainer="libraryCn">
+          <EntitySetMapping Name="books">
+            <EntityTypeMapping TypeName="library_systemsModel.book">
+              <MappingFragment StoreEntitySet="book">
+                <ScalarProperty Name="Book_No" ColumnName="Book_No" />
+                <ScalarProperty Name="Book_Name" ColumnName="Book_Name" />
+                <ScalarProperty Name="Author" ColumnName="Author" />
+                <ScalarProperty Name="Cost" ColumnName="Cost" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="members">
+            <EntityTypeMapping TypeName="library_systemsModel.member">
+              <MappingFragment StoreEntitySet="member">
+                <ScalarProperty Name="memberid" ColumnName="memberid" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="Acc_Open_Date" ColumnName="Acc_Open_Date" />
+                <ScalarProperty Name="Max_Books_Allowed" ColumnName="Max_Books_Allowed" />
+                <ScalarProperty Name="Penalty_Amount" ColumnName="Penalty_Amount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="issues">
+            <EntityTypeMapping TypeName="library_systemsModel.issue">
+              <MappingFragment StoreEntitySet="issue">
+                <ScalarProperty Name="Return_date" ColumnName="Return_date" />
+                <ScalarProperty Name="Issue_Date" ColumnName="Issue_Date" />
+                <ScalarProperty Name="Member_Id" ColumnName="Member_Id" />
+                <ScalarProperty Name="Book_No" ColumnName="Book_No" />
+                <ScalarProperty Name="Lib_Issue_Id" ColumnName="Lib_Issue_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

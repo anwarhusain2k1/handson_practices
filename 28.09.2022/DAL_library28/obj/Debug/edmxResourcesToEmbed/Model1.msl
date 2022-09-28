@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="library_systemsModelStoreContainer" CdmEntityContainer="libraryCn">
+    <EntitySetMapping Name="books">
+      <EntityTypeMapping TypeName="library_systemsModel.book">
+        <MappingFragment StoreEntitySet="book">
+          <ScalarProperty Name="Book_No" ColumnName="Book_No" />
+          <ScalarProperty Name="Book_Name" ColumnName="Book_Name" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="members">
+      <EntityTypeMapping TypeName="library_systemsModel.member">
+        <MappingFragment StoreEntitySet="member">
+          <ScalarProperty Name="memberid" ColumnName="memberid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="Acc_Open_Date" ColumnName="Acc_Open_Date" />
+          <ScalarProperty Name="Max_Books_Allowed" ColumnName="Max_Books_Allowed" />
+          <ScalarProperty Name="Penalty_Amount" ColumnName="Penalty_Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="issues">
+      <EntityTypeMapping TypeName="library_systemsModel.issue">
+        <MappingFragment StoreEntitySet="issue">
+          <ScalarProperty Name="Return_date" ColumnName="Return_date" />
+          <ScalarProperty Name="Issue_Date" ColumnName="Issue_Date" />
+          <ScalarProperty Name="Member_Id" ColumnName="Member_Id" />
+          <ScalarProperty Name="Book_No" ColumnName="Book_No" />
+          <ScalarProperty Name="Lib_Issue_Id" ColumnName="Lib_Issue_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

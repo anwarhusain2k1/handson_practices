@@ -1,0 +1,15 @@
+D:\practiceprojects\28.09.2022\BLL_library\bin\Debug\BLL_library.dll
+D:\practiceprojects\28.09.2022\BLL_library\bin\Debug\BLL_library.pdb
+D:\practiceprojects\28.09.2022\BLL_library\obj\Debug\BLL_library.csproj.AssemblyReference.cache
+D:\practiceprojects\28.09.2022\BLL_library\obj\Debug\BLL_library.csproj.CoreCompileInputs.cache
+D:\practiceprojects\28.09.2022\BLL_library\obj\Debug\BLL_library.dll
+D:\practiceprojects\28.09.2022\BLL_library\obj\Debug\BLL_library.pdb
+D:\practiceprojects\28.09.2022\BLL_library\bin\Debug\BLL_library.dll.config
+D:\practiceprojects\28.09.2022\BLL_library\bin\Debug\EntityFramework.dll
+D:\practiceprojects\28.09.2022\BLL_library\bin\Debug\EntityFramework.SqlServer.dll
+D:\practiceprojects\28.09.2022\BLL_library\bin\Debug\EntityFramework.xml
+D:\practiceprojects\28.09.2022\BLL_library\bin\Debug\EntityFramework.SqlServer.xml
+D:\practiceprojects\28.09.2022\BLL_library\obj\Debug\BLL_library.csproj.CopyComplete
+D:\practiceprojects\28.09.2022\BLL_library\bin\Debug\DAL_library28.dll
+D:\practiceprojects\28.09.2022\BLL_library\bin\Debug\DAL_library28.pdb
+D:\practiceprojects\28.09.2022\BLL_library\bin\Debug\DAL_library28.dll.config
