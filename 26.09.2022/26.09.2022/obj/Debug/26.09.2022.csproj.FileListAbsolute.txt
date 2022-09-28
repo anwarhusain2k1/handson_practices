@@ -1,0 +1,16 @@
+D:\practiceprojects\26.09.2022\26.09.2022\bin\Debug\26.09.2022.exe.config
+D:\practiceprojects\26.09.2022\26.09.2022\bin\Debug\26.09.2022.exe
+D:\practiceprojects\26.09.2022\26.09.2022\bin\Debug\26.09.2022.pdb
+D:\practiceprojects\26.09.2022\26.09.2022\obj\Debug\26.09.2022.csproj.AssemblyReference.cache
+D:\practiceprojects\26.09.2022\26.09.2022\obj\Debug\26.09.2022.csproj.SuggestedBindingRedirects.cache
+D:\practiceprojects\26.09.2022\26.09.2022\obj\Debug\26.09.2022.csproj.CoreCompileInputs.cache
+D:\practiceprojects\26.09.2022\26.09.2022\obj\Debug\26.09.2022.exe
+D:\practiceprojects\26.09.2022\26.09.2022\obj\Debug\26.09.2022.pdb
+D:\practiceprojects\26.09.2022\26.09.2022\bin\Debug\library_BAL.dll
+D:\practiceprojects\26.09.2022\26.09.2022\bin\Debug\library_HELP.dll
+D:\practiceprojects\26.09.2022\26.09.2022\bin\Debug\library_DAL.dll
+D:\practiceprojects\26.09.2022\26.09.2022\bin\Debug\library_BAL.pdb
+D:\practiceprojects\26.09.2022\26.09.2022\bin\Debug\library_HELP.pdb
+D:\practiceprojects\26.09.2022\26.09.2022\bin\Debug\library_DAL.pdb
+D:\practiceprojects\26.09.2022\26.09.2022\bin\Debug\library_DAL.dll.config
+D:\practiceprojects\26.09.2022\26.09.2022\obj\Debug\26.09.2022.csproj.CopyComplete

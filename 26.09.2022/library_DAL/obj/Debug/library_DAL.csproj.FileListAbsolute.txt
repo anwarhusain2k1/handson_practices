@@ -1,0 +1,10 @@
+D:\practiceprojects\26.09.2022\library_DAL\bin\Debug\library_DAL.dll
+D:\practiceprojects\26.09.2022\library_DAL\bin\Debug\library_DAL.pdb
+D:\practiceprojects\26.09.2022\library_DAL\obj\Debug\library_DAL.csproj.AssemblyReference.cache
+D:\practiceprojects\26.09.2022\library_DAL\obj\Debug\library_DAL.csproj.CoreCompileInputs.cache
+D:\practiceprojects\26.09.2022\library_DAL\obj\Debug\library_DAL.dll
+D:\practiceprojects\26.09.2022\library_DAL\obj\Debug\library_DAL.pdb
+D:\practiceprojects\26.09.2022\library_DAL\bin\Debug\library_DAL.dll.config
+D:\practiceprojects\26.09.2022\library_DAL\bin\Debug\library_BAL.dll
+D:\practiceprojects\26.09.2022\library_DAL\bin\Debug\library_BAL.pdb
+D:\practiceprojects\26.09.2022\library_DAL\obj\Debug\library_DAL.csproj.CopyComplete

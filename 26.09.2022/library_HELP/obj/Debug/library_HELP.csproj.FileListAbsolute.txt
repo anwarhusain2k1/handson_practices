@@ -1,0 +1,12 @@
+D:\practiceprojects\26.09.2022\library_HELP\bin\Debug\library_HELP.dll
+D:\practiceprojects\26.09.2022\library_HELP\bin\Debug\library_HELP.pdb
+D:\practiceprojects\26.09.2022\library_HELP\obj\Debug\library_HELP.csproj.AssemblyReference.cache
+D:\practiceprojects\26.09.2022\library_HELP\obj\Debug\library_HELP.csproj.CoreCompileInputs.cache
+D:\practiceprojects\26.09.2022\library_HELP\obj\Debug\library_HELP.dll
+D:\practiceprojects\26.09.2022\library_HELP\obj\Debug\library_HELP.pdb
+D:\practiceprojects\26.09.2022\library_HELP\bin\Debug\library_BAL.dll
+D:\practiceprojects\26.09.2022\library_HELP\bin\Debug\library_DAL.dll
+D:\practiceprojects\26.09.2022\library_HELP\bin\Debug\library_BAL.pdb
+D:\practiceprojects\26.09.2022\library_HELP\bin\Debug\library_DAL.pdb
+D:\practiceprojects\26.09.2022\library_HELP\bin\Debug\library_DAL.dll.config
+D:\practiceprojects\26.09.2022\library_HELP\obj\Debug\library_HELP.csproj.CopyComplete
