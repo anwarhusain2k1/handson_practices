@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="Borrowers" EntityType="Model1.Store.Borrowers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="loans" EntityType="Model1.Store.loans" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Borrowers">
+    <Key>
+      <PropertyRef Name="borrower_Id" />
+    </Key>
+    <Property Name="borrower_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="borr_name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="company_name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="jobname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="address_city" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="address_state" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="address_country" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="loans">
+    <Key>
+      <PropertyRef Name="loan_Id" />
+    </Key>
+    <Property Name="loan_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="loantype" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="amount" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="duration" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="rateofintrest" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Borrowers" EntityType="Model1.Borrower" />
+          <EntitySet Name="loans" EntityType="Model1.loan" />
+        </EntityContainer>
+        <EntityType Name="Borrower">
+          <Key>
+            <PropertyRef Name="borrower_Id" />
+          </Key>
+          <Property Name="borrower_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="borr_name" Type="String" Nullable="false" />
+          <Property Name="company_name" Type="String" Nullable="false" />
+          <Property Name="jobname" Type="String" Nullable="false" />
+          <Property Name="address" Type="Model1.address" Nullable="false" />
+        </EntityType>
+        <ComplexType Name="address" >
+          <Property Type="String" Name="city" Nullable="false" />
+          <Property Type="String" Name="state" Nullable="false" />
+          <Property Type="String" Name="country" Nullable="false" />
+        </ComplexType>
+        <EntityType Name="loan">
+          <Key>
+            <PropertyRef Name="loan_Id" />
+          </Key>
+          <Property Name="loan_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="loantype" Type="String" Nullable="false" />
+          <Property Name="amount" Type="String" Nullable="false" />
+          <Property Name="duration" Type="String" Nullable="false" />
+          <Property Name="rateofintrest" Type="String" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="Borrowers">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Borrower)">
+        <MappingFragment StoreEntitySet="Borrowers">
+          <ScalarProperty Name="borrower_Id" ColumnName="borrower_Id" />
+          <ScalarProperty Name="borr_name" ColumnName="borr_name" />
+          <ScalarProperty Name="company_name" ColumnName="company_name" />
+          <ScalarProperty Name="jobname" ColumnName="jobname" />
+          <ComplexProperty Name="address" TypeName="Model1.address">
+            <ScalarProperty Name="city" ColumnName="address_city" />
+            <ScalarProperty Name="state" ColumnName="address_state" />
+            <ScalarProperty Name="country" ColumnName="address_country" />
+          </ComplexProperty>
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="loans">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.loan)">
+        <MappingFragment StoreEntitySet="loans">
+          <ScalarProperty Name="loan_Id" ColumnName="loan_Id" />
+          <ScalarProperty Name="loantype" ColumnName="loantype" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="rateofintrest" ColumnName="rateofintrest" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
