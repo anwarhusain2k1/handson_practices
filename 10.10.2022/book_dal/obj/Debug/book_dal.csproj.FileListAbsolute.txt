@@ -1,0 +1,12 @@
+D:\practiceprojects\error_handling\book_dal\bin\Debug\book_dal.dll.config
+D:\practiceprojects\error_handling\book_dal\bin\Debug\book_dal.dll
+D:\practiceprojects\error_handling\book_dal\bin\Debug\book_dal.pdb
+D:\practiceprojects\error_handling\book_dal\bin\Debug\EntityFramework.dll
+D:\practiceprojects\error_handling\book_dal\bin\Debug\EntityFramework.SqlServer.dll
+D:\practiceprojects\error_handling\book_dal\bin\Debug\EntityFramework.xml
+D:\practiceprojects\error_handling\book_dal\bin\Debug\EntityFramework.SqlServer.xml
+D:\practiceprojects\error_handling\book_dal\obj\Debug\book_dal.csproj.AssemblyReference.cache
+D:\practiceprojects\error_handling\book_dal\obj\Debug\book_dal.csproj.CoreCompileInputs.cache
+D:\practiceprojects\error_handling\book_dal\obj\Debug\book_dal.csproj.CopyComplete
+D:\practiceprojects\error_handling\book_dal\obj\Debug\book_dal.dll
+D:\practiceprojects\error_handling\book_dal\obj\Debug\book_dal.pdb
